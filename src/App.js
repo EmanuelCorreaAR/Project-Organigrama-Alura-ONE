@@ -1,10 +1,12 @@
-import './App.css';
-import Header from './components/Header/Header';
+
+import Formulario from './components/Form';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Formulario/>
     </div>
   );
 }
